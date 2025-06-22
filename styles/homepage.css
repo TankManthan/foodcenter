@@ -1,0 +1,554 @@
+body {
+    color: white;
+    background-image: url('../admin/images/background.jpg');
+    background-size: contain;
+
+}
+
+@font-face {
+    font-family: font1;
+    src: url("../fonts/MarckScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: font2;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: font3;
+    src: url("../fonts/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: font4;
+    src: url("../fonts/Inspiration-Regular.ttf");
+}
+
+@font-face {
+    font-family: font5;
+    src: url("../fonts/Nosifer-Regular.ttf");
+}
+
+@font-face {
+    font-family: font6;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: font7;
+    src: url("../fonts/PrincessSofia-Regular.ttf");
+}
+
+
+/* navbar 1*/
+/*effect*/
+.effect {
+    transition: 0.2s;
+    text-shadow: #ffffff 0 0 12px,
+        rgb(226, 152, 13) 0 0 25px,
+        rgb(210, 152, 43) 0 0 35px,
+        rgb(210, 152, 43) 0 0 45px;
+}
+
+.nav1 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.nav1 .login-container {
+    height: 40px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 .login-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 .login-container button {
+    /* border: 1px solid white; */
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 30px;
+    background-color: orange;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-family: font2;
+    font-size: 15px;
+}
+
+.login-container button:hover {
+    transition: 0.2s;
+    color: orange;
+    background-color: white;
+    border: none;
+}
+
+.nav1 .logo-container {
+    height: 50px;
+    width: 30%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: font1;
+    font-size: 25px;
+    color: orange;
+}
+
+
+
+/* navbar 2*/
+.nav2 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0f0f;
+}
+
+.nav2a {
+    margin-left: 20px;
+    width: 70%;
+}
+
+.nav2b {
+    margin-right: 20px;
+    width: 30%;
+}
+
+.nav2a button {
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: orange;
+    /* border: 1px solid white; */
+    color: black;
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+}
+
+.nav2b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2b i {
+    color: white;
+}
+
+.nav2b .search {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2b .search input {
+    width: 80%;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.nav2b .search input::placeholder {
+    color: orange;
+    text-align: center;
+    font-family: font2;
+}
+
+.nav2b .search input:hover {
+    background-color: white;
+
+}
+
+.nav2b .search button {
+    height: 30px;
+    width: 200%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.nav2b .cart button {
+    height: 35px;
+    width: 70px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.nav2 button:hover {
+    background-color: white;
+    transition: 0.2s;
+    border: none;
+    color: orange;
+}
+
+
+
+.review {
+    height: 40px;
+    width: 100px;
+    position: fixed;
+    margin-top: 150px;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+}
+
+.review:hover {
+    background-color: black;
+}
+
+.review a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+/* after slider it will appear
+    most loved dishes or signature dishes....*/
+.mostloveddishes {
+    margin: 0px 20px 0px 20px;
+    background-size: cover;
+    width: 97%;
+}
+
+.heading {
+    border-radius: 0px 0px 25px 25px;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: font6;
+    color: white;
+}
+
+.mostloveddishes .con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.mostloveddishes .container1 {
+    height: 370px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 0px 25px 0px 25px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+    background-image: url('../admin/images/3383696.jpg');
+    background-size: contain;
+}
+
+.mostloveddishes .container1:hover {
+    transition: 0.4s;
+    background-color: rgb(36, 35, 35);
+    margin: 0px;
+}
+
+.mostloveddishes .container1 img {
+    height: 200px;
+    width: 300px;
+    border-radius: 14px 14px 0px 40px;
+    background-size: contain;
+    border-bottom: 3px solid white;
+}
+
+.mostloveddishes .container1 img:hover {
+    transform: rotateX(360deg);
+    transition: 1.9s;
+    border: none;
+    border-radius: 10px;
+}
+
+.mostloveddishes .container1 .name {
+    color: white;
+    margin: 5px 10px 1px 20px;
+    font-size: larger;
+
+}
+
+.mostloveddishes .container1 .details {
+    font-size: 10px;
+    text-align: left;
+    margin: 5px 0px 5px 5px;
+    font-size: 12px;
+}
+
+.mostloveddishes .container1 .pprice {
+    font-size: 17px;
+    text-align: left;
+    margin-right: 170px;
+}
+
+.mostloveddishes .container1 button {
+    height: 40px;
+    width: 65px;
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.mostloveddishes .container1 button:hover {
+    background-color: white;
+    color: orange;
+}
+
+/*  food categories.....*/
+.categories {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 350px;
+    width: 30%;
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    background-image: url('../admin/images/3383696.jpg');
+    background-size: contain;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+}
+
+.box a:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+.box:hover {
+    transition: 0.4s;
+    border: 1px black solid;
+    margin: 0px 20px 0px 20px;
+    height: 350px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #0e0d0d;
+}
+
+.box h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box1-image img {
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.box1-image img:hover {
+    border-radius: 20px;
+}
+
+/* chef's details......*/
+.chefs {
+    background-color: transparent;
+}
+
+.chef-c {
+    /* height: 500px;
+    width: 100%;
+    background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.chef-c .c1 {
+    height: 380px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin: 20px 20px 20px 20px;
+    color: black;
+    background-image: url('../admin/images/3383696.jpg');
+    background-size: contain;
+}
+
+.chef-c .c1:hover {
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    margin: 0px 22px 0px 22px;
+}
+
+.chef-c .c1 .c2 img {
+    height: 290px;
+    width: 290px;
+    background-size: cover;
+
+}
+
+.chef-c .c1 .c3 {
+    height: 250px;
+    width: 260px;
+    background-color: transparent;
+}
+
+.chef-c .c1 .c3 .name {
+    font-size: 30px;
+}
+
+.chef-c .c1 .c3 .details {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+/** back to top **/
+.backtotop {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.backtotop-button {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(104, 102, 102);
+    background-color: black;
+    font-family: font2;
+}
+
+.backtotop-button:hover {
+    color: orange;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: white;
+}
+
+/** footer **/
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 100;
+}
+
+.footer .f1 {
+    height: 300px;
+    width: 20%;
+}
+
+.footer .f2 {
+    height: 300px;
+    width: 20%;
+}
+
+.footer .f3 {
+    height: 300px;
+    width: 20%;
+}
+
+.footer .f4 {
+    height: 300px;
+    width: 30%;
+}
+
+.footer .f4 button {
+    height: 40px;
+    width: 50%;
+    background-color: orange;
+    color: black;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-family: font2;
+}
+
+.footer .f4 button:hover {
+    background-color: white;
+    color: orange;
+    transition: 0.3s;
+}
+
+.footer .f4 i {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.f5 {
+    height: 100px;
+    width: 100%;
+    background-color: #0f0f0f;
+    text-align: center;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    font-size: 13px;
+}

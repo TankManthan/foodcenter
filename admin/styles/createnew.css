@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.c1 {
+    height: 700px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-co {
+    height: 660px;
+    width: 530px;
+    border: 1.9px rgb(77, 75, 75) solid;
+    border-radius: 10px;
+    font-family: font2;
+    color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.p {
+    margin-left: 20px;
+}
+
+.c1 input {
+    height: 35px;
+    width: 88%;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.c1 input:hover {
+    background-color: rgb(209, 231, 240);
+}
+
+.c1 button {
+    height: 40px;
+    width: 90%;
+    background-color: orange;
+    color: white;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.c1 button:hover {
+    background-color: rgb(173, 115, 7);
+}
+
+.condition {
+    margin-left: 20px;
+}
+
+.c1 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.c1 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.c2 {
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createnew {
+    height: 100px;
+    width: 530px;
+    border: 1.9px solid black;
+    border-radius: 10px;
+}
+
+.c2 a {
+    margin-left: 20px;
+}
+
+.c2 .p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.c2 button {
+    height: 40px;
+    width: 90%;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+}
+
+.c2 button:hover {
+    background-color: rgb(173, 115, 7);
+}

@@ -1,0 +1,95 @@
+  table {
+      border-collapse: collapse;
+      width: 90%;
+      font-size: large;
+      margin-bottom: 30px;
+  }
+
+  td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+  }
+
+  th {
+      background-color: black;
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+  }
+
+  tr:hover {
+      background-color: black;
+  }
+
+  .t-heading {
+      height: 50px;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ddd;
+      border-radius: 10px 10px 0px 0px;
+      margin-top: 30px;
+  }
+
+  .con1 {
+      height: 50px;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .con1 span {
+      font-size: 25px;
+      font-family: monospace;
+  }
+
+  .con2 {
+      height: 50px;
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .con2 button {
+      background-color: #588c7e;
+      border: 1.9px solid black;
+      height: 30px;
+      width: 100px;
+      color: white;
+      border-radius: 10px;
+  }
+
+  .con2 a {
+      text-decoration: none;
+  }
+
+
+  #update {
+      background-color: rgb(7, 7, 255);
+      border: 1.9px solid black;
+      height: 30px;
+      width: 90px;
+      color: white;
+      border-radius: 8px;
+  }
+
+  #update a {
+      text-decoration: none;
+  }
+
+  #delete {
+      background-color: rgb(230, 21, 21);
+      border: 1.9px solid black;
+      height: 30px;
+      width: 90px;
+      color: white;
+      border-radius: 8px;
+  }
+
+  #delete a {
+      text-decoration: none;
+  }

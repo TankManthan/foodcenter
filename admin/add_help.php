@@ -40,7 +40,7 @@
 
             <form action="add_help.php" method="POST">
                 <div class="form-group">
-                    <label for="subject">Enter question</label>
+                    <label for="subject">Enter question </label>
                     <input type="text" id="subject" name="q" required>
                 </div>
                 <div class="form-group">
